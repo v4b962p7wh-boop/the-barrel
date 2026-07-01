@@ -1,2 +1,2 @@
-# the-barrel-legal
+# the-barrel
 The Barrel - legal info.
