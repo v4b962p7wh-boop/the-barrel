@@ -352,7 +352,7 @@
   /* PRICING */
   .pricing-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 16px;
     max-width: 720px;
   }
@@ -628,7 +628,20 @@
         <span class="plan-badge">Barrel Club</span>
         <p class="plan-name">Monthly</p>
         <p class="plan-price">$4.99</p>
-        <p class="plan-period">per month · or $39.99/yr (save 33%)</p>
+        <p class="plan-period">per month</p>
+        <ul class="plan-features">
+          <li>Unlimited AI label scanning</li>
+          <li>Full Dram Log history</li>
+          <li>Flavor DNA palate profile</li>
+          <li>Unlimited Tasting Circles</li>
+          <li>Early access to new features</li>
+        </ul>
+      </div>
+      <div class="plan-card featured">
+        <span class="plan-badge">Best value</span>
+        <p class="plan-name">Annual</p>
+        <p class="plan-price">$39.99</p>
+        <p class="plan-period">per year · save 33%</p>
         <ul class="plan-features">
           <li>Unlimited AI label scanning</li>
           <li>Full Dram Log history</li>
@@ -655,9 +668,9 @@
 <footer>
   <span class="footer-brand">The Barrel</span>
   <div class="footer-links">
-    <a href="https://v4b962p7wh-boop.github.io/the-barrel-legal/privacy-policy.html">Privacy Policy</a>
-    <a href="https://v4b962p7wh-boop.github.io/the-barrel-legal/terms-of-service.html">Terms of Service</a>
-    <a href="https://v4b962p7wh-boop.github.io/the-barrel-legal/support.html">Support</a>
+    <a href="https://v4b962p7wh-boop.github.io/the-barrel/privacy-policy.html">Privacy Policy</a>
+    <a href="https://v4b962p7wh-boop.github.io/the-barrel/terms-of-service.html">Terms of Service</a>
+    <a href="https://v4b962p7wh-boop.github.io/the-barrel/support.html">Support</a>
   </div>
   <span class="footer-copy">© 2026 Brent Appleby. For adults of legal drinking age.</span>
 </footer>
